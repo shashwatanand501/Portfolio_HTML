@@ -13,8 +13,11 @@
     border-spacing: 10px; /*Optional*/
 }
 .skill_row{
-    display: table-cell;
+    display: table-column;
     
+}
+.progress_bar{
+  color: #44107a;
 }
   .Profil_img{
       border-radius: 100rem;
