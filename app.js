@@ -37,7 +37,17 @@ const highlightMenu = () => {
     servicesMenu.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
-  }else if (window.innerWidth > 960 && scrollPos < 2345) {
+  }else if (window.innerWidth > 960 && scrollPos < 3345) {
+    certificate.classList.add('highlight');
+    aboutMenu.classList.remove('highlight');
+    return;
+  }
+  else if (window.innerWidth > 960 && scrollPos < 4345) {
+    certificate.classList.add('highlight');
+    aboutMenu.classList.remove('highlight');
+    return;
+  }
+  else if (window.innerWidth > 960 && scrollPos < 5345) {
     certificate.classList.add('highlight');
     aboutMenu.classList.remove('highlight');
     return;
